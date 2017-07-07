@@ -1,0 +1,59 @@
+start='''
+You are outside the metro stop on your way to GWC and you receive a text from a friend saying she wants to hang out on U street.
+'''
+#GWC
+S1='''
+You are already late because you decided to get a coffee so, you are booking it and you trip and spill all your coffee on your white shirt. 
+'''
+#Go straight there
+S2='''
+You get excused and end up on U street with your friends.
+'''
+#Buy a shirt
+S3='''
+When you get there, the only shirts available are Trump shirts. Do you buy one and turn it inside it out or do you forget about it?
+'''
+#Buy one
+S4='''
+you eventually get there but feel anxious and guilty all with it on.
+'''
+#Forget about it
+S5='''
+You're are super late for no reason and have a very big coffee stain on your shirt.
+'''
+#U street
+S6='''
+Maya emails your parents and they say that you are going to get grounded if you don't go to GWC. Do you lie to your parents or go to GWC?
+'''
+#Lie
+S7='''
+Spend a nice day with your friends and your parents never find out.
+'''
+#Go to GWC
+S8='''
+On your way you trip and rip your jeans and you start to bleed. Do you keep going or go to the CVS Minute Clinic for your boo-boo?
+'''
+#Keep going
+S9='''
+find out class is canceled
+'''
+#CVS Minute Clinic
+S10='''
+Minute Clinic doctor gives you a ride to GWC and you have a fun day.
+'''
+print (start)
+usr_input1=input("You now have a dilemma GWC or U street?")
+if usr_input1 == 'GWC':
+     print(S1)
+else:
+    print(S6)
+usr_input2=input("Do you go straight there or buy a shirt from CVS?")
+if usr_input2 == 'go straight there':
+    print(S2)
+else:
+    print(S3)
+usr_input3=input("Do you buy one and turn it inside it out or do you forget about it?")
+if usr_input3 == 'buy one':
+    print(S4)
+else:
+    print(S5)
